@@ -25,3 +25,24 @@ class Input {
         input.close();
     }
 }
+// sum of numbers even or not
+import java.util.Scanner;
+public class input{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+   // System.out.println("enter a integer");
+    //int number=input.nextInt();
+    System.out.println("enter number_1");
+    int number_1=input.nextInt();
+    System.out.println("enter number_2");
+    int number_2=input.nextInt();
+    int sum=number_1+number_2;
+    if (sum%2==0){
+        System.out.println("even number");
+    }else{
+        System.out.println("odd number");
+    }
+    input.close();
+    }
+}
+
