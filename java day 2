@@ -104,3 +104,22 @@ public class Main {
     }
   }
 }
+//program to print alternative numbers upto 100
+public class numbers{
+    public static void main(String[] args){
+        for(int i=0;i<=100;i++){
+            if(i%2!=0){
+                System.out.println(i);
+            }
+        }
+    }
+}
+//program to print natural numbers from 1 to 100
+public class numbers{
+    public static void main(String[] args){
+        for(int i=0;i<=100;i++){
+        System.out.println(i);
+
+    }
+}
+}
