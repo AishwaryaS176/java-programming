@@ -1,0 +1,27 @@
+//type casting program in java
+public class typecasting{
+    public static void main(String[] args){
+        double mydouble=7.98;
+        int myint=(int) mydouble;
+        System.out.println(myint);
+        System.out.println(mydouble);
+    }
+}
+//even or odd number user input
+import java.util.Scanner;
+
+class Input {
+    public static void main(String[] args) {
+    	
+        Scanner input = new Scanner(System.in);
+    	
+        System.out.print("Enter an integer: ");
+        int number = input.nextInt();
+        if (number%2==0){
+            System.out.println("even number");
+        }else{
+            System.out.println("odd number");
+             }
+        input.close();
+    }
+}
