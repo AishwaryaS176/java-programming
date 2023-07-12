@@ -1,1 +1,16 @@
-
+//fetching employee details using classes amd objects
+public class Employee{
+    int empid=01;
+    String empname="aarthi";
+    int salary=100000;
+    public static void main(String[] args){
+        Employee obj1=new Employee();
+        Employee obj2=new Employee();
+        Employee obj3=new Employee();
+        System.out.println("employee id: " +obj1.empid);
+        System.out.println("employee name: "+obj2.empname);
+        System.out.println("employee salary: "+obj3.salary);
+    }
+    
+    
+}
