@@ -61,4 +61,43 @@ public class Arrays{
         
     }
 }
-//
+// ARRAY PROGRAM USING FOR LOOP
+public class Array{
+    public static void main(String[] args){
+        String[] cars={"volvo","suzuki","BMW","maruti"};
+        for (String i : cars){
+            System.out.println(i);
+        }
+    }
+}
+//ARRAY PROGRAM USING WHILE LOOP
+public class Array{
+    public static void main(String[] args){
+        String[] cars={"volvo","suzuki","BMW","maruti"};
+        int i=0;
+        while(i<cars.length){
+            System.out.println(cars[i]);
+            i=i+1;
+        }
+    }
+}
+//MULTI DIMENSIONAL ARRAY
+public class Multidimensionalarray{
+    public static void main(String[] args){
+        int[][] num={{1,2,3,4},{5,6,7,8}};
+        System.out.println(num[0][3]);
+
+    }
+}
+// MULTI DIMENSIONAL ARRAY TRAVERSING USING FOR LOOP
+public class Loop{
+    public static void main(String[] args){
+        int[][] num={{1,2,3,4},{5,6,7,8}};
+        for(int i=0;i<num.length;i++){
+            for(int j=0;j<num[i].length;j++){
+                System.out.println(num[i][j]);
+            
+            }
+        }
+    }
+}
