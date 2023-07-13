@@ -1,4 +1,4 @@
-//prime numbers
+//PRIME NUMBERS
 public class Main{
     public static void main(String[] args){
         int n=7;
@@ -12,5 +12,27 @@ public class Main{
             }
         }System.out.println(prime);
         
+    }
+}
+//PALINDROME PROGRAM BY USER INPUTS
+import java.util.Scanner;
+public class pallindrome{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter a number:");
+        int num=input.nextInt();
+        int temp=num;
+        int rev=0;
+        while(num!=0){
+            int r=num%10;
+            rev=rev*10+r;
+            num=num/10;
+            
+        }
+        if (temp==rev){
+        System.out.println("it is a pallindrome" +temp);
+    }else{
+        System.out.println("it is not a palindrome");
+         }input.close();
     }
 }
