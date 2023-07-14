@@ -1,1 +1,11 @@
-
+1.//BASIC METHOD PROGRAM
+public class Main{
+    public static void main(String[] args){
+        System.out.println("hello world");
+        sayhi();
+        System.out.println("This is the first java method program");
+    }
+    public static void sayhi(){
+        System.out.println("nice to meet u");
+    }
+}
