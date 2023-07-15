@@ -1,0 +1,17 @@
+//EVEN ODD NUMBERS USING FUNCTION
+public class Main{
+    public static void evenodd(int number){
+        if (number%2==0){
+            System.out.println("even number");
+            
+        } else {
+            System.out.println("odd number");
+            
+        }
+    }
+
+    public static void main(String[] args){
+        evenodd(21);
+        
+    }
+}
